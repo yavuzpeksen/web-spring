@@ -74,7 +74,7 @@ public class UserRegistration {
 			//System.out.println(userService);
 			ArrayList<String> errorCode = new ArrayList<String>();
 
-			Database database = new Database("localhost:3306/saglik", "root", "123456yp");
+			Database database = new Database("localhost:3306/saglik", "root", "sifre");
 			int responseCode = registerService.register(form);
 			/*if(responseCode == 1){
 				//Basarili sekilde kayit oldu. Kod uret ve kodu ilgili email adresine gonder.
